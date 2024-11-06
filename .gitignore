@@ -1,0 +1,51 @@
+# Laravel-specific files and directories
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+
+# Laravel framework specific
+/public/mix-manifest.json
+/storage/framework/*
+/storage/app/*
+/storage/cache/*
+/storage/sessions/*
+/storage/views/*
+/storage/logs/*
+
+# Composer lock file for a specific environment
+composer.lock
+
+# Environment specific files
+.env.*.local
+
+# NPM or Yarn logs and temporary files
+.yarn-integrity
+package-lock.json
+
+# Temporary files
+*.swp
+*.swo
+
+# JetBrains IDE-specific files (if using PhpStorm, WebStorm, etc.)
+/.idea/
+
+# VS Code specific files (if using VSCode)
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
